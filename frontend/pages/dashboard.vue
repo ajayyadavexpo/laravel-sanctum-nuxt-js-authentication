@@ -1,9 +1,11 @@
 <template>
-	<div class="font-bold p-5">
-		Dashboard : {{ $auth.user.name }}, Email : {{ $auth.user.email }}
+	<div class=" p-5">
+		<p class="text-2xl mb-3 font-bold">Dashboard</p>
+		<p><b>User Name</b> : {{ $auth.user.name }}</p>
+		<p><b>User Email</b> : {{ $auth.user.email }}</p>
 
-		<div>
-			<button type="button" class="bg-red-700 text-white rounded p-3" @click="logout">Logout</button>
+		<div class="mt-5">
+			<button type="button" class="bg-red-700 text-white rounded px-3 py-1" @click="logout">Logout</button>
 		</div>
 	</div>
 </template>

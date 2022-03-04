@@ -1,7 +1,7 @@
 <template>
 	<!-- component -->
 <div class="flex items-center justify-center">
-    <div class="w-full max-w-md mt-10">
+    <div class="w-full max-w-md">
       <form class="bg-white shadow-lg rounded px-12 pt-6 pb-8 mb-4" ref="registerform" @submit.prevent="register">
         <!-- @csrf -->
         <div
